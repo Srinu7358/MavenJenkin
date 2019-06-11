@@ -15,9 +15,11 @@ public class MavenJenkinExample {
 			WebDriver driver=new ChromeDriver();
 			driver.get("https://www.jcrew.com");
 			Thread.sleep(5000);
+			
 			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>home>>sale>'][text()='sale']")).click();
-			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>genderLanding>>kids>'][text()='kids']")).click();
-			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>genderLanding>>men>'][text()='Men']")).click();
+			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>kids>'][text()='kids']")).click();
+			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>men>'][text()='Men']")).click();
+			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>women>'][text()='Women']")).click();
 			
 			driver.close();
 		}
