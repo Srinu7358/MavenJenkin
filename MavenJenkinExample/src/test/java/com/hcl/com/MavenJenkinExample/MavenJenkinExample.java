@@ -18,7 +18,7 @@ public class MavenJenkinExample {
 			
 			//driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>home>>sale>'][text()='sale']")).click();
 			//driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>kids>'][text()='kids']")).click();
-			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>men>'][text()='Men']")).click();
+			//driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>men>'][text()='Men']")).click();
 			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>women>'][text()='Women']")).click();
 			
 			driver.close();
