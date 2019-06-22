@@ -16,7 +16,7 @@ public class MavenJenkinExample {
 			driver.get("https://www.amazon.in/your-account");
 			Thread.sleep(5000);
 		
-			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>c>>kids>'][text()='kids']")).click();
+			driver.findElement(By.xpath("//SPAN[@class='nav-cart-icon nav-sprite']")).click();
 			//driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>women>'][text()='Women']")).click();
 			
 			driver.close();
