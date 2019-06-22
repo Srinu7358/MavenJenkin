@@ -22,5 +22,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-examples-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-excelant-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/poi-scratchpad-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/selenium-java-2.47.0.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/selenium-java-2.47.0-srcs.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/selenium-server-2.47.0-srcs (1).jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/selenium-server-2.47.0-srcs.jar"/>
+	<classpathentry kind="lib" path="E:/C-backup/backup1/SeleniumJars/selenium-server-standalone-2.47.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

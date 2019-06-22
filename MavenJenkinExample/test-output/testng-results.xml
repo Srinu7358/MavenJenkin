@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Test" duration-ms="45430" started-at="2019-03-10T12:34:59Z" finished-at="2019-03-10T12:35:44Z">
+  <suite name="Test" duration-ms="46701" started-at="2019-06-21T12:17:31Z" finished-at="2019-06-21T12:18:17Z">
     <groups>
     </groups>
-    <test name="testGuru" duration-ms="45430" started-at="2019-03-10T12:34:59Z" finished-at="2019-03-10T12:35:44Z">
+    <test name="testGuru" duration-ms="46701" started-at="2019-06-21T12:17:31Z" finished-at="2019-06-21T12:18:17Z">
       <class name="com.hcl.com.MavenJenkinExample.MavenJenkinExample">
-        <test-method status="PASS" signature="test12()[pri:0, instance:com.hcl.com.MavenJenkinExample.MavenJenkinExample@c285f4]" name="test12" duration-ms="45212" started-at="2019-03-10T18:04:59Z" finished-at="2019-03-10T18:05:44Z">
+        <test-method status="PASS" signature="test12()[pri:0, instance:com.hcl.com.MavenJenkinExample.MavenJenkinExample@29ee9faa]" name="test12" duration-ms="46665" started-at="2019-06-21T17:47:31Z" finished-at="2019-06-21T17:48:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test12 -->
