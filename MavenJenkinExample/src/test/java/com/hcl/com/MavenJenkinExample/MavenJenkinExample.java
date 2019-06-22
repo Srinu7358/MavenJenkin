@@ -13,7 +13,7 @@ public class MavenJenkinExample {
 		try{
 		  System.setProperty("webdriver.chrome.driver","C:/Users/GATEWAY/Downloads/chromedriver_win32/chromedriver.exe");
 			WebDriver driver=new ChromeDriver();
-			driver.get("https://www.jcrew.com");
+			driver.get("https://www.amazon.in/your-account");
 			Thread.sleep(5000);
 		
 			driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>c>>kids>'][text()='kids']")).click();
