@@ -17,7 +17,8 @@ public class MavenJenkinExample {
 			Thread.sleep(5000);
 		
 			driver.findElement(By.xpath("//SPAN[@class='nav-cart-icon nav-sprite']")).click();
-			//driver.findElement(By.xpath("//A[@name='&lpos=nav_topnav>embedHeader>>women>'][text()='Women']")).click();
+			Thread.sleep(5000);
+			driver.findElement(By.xpath("//A[@class='a-link-normal'][text()='Amazon.in homepage']")).click();
 			
 			driver.close();
 		}
